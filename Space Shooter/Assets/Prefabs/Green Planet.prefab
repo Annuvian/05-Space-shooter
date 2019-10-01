@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4921547927627500593}
   - component: {fileID: 8865063982847975556}
+  - component: {fileID: -4954869380044868085}
+  - component: {fileID: -7816946423081006064}
   m_Layer: 0
   m_Name: Green Planet
   m_TagString: Untagged
@@ -80,3 +82,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &-4954869380044868085
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651971636576553021}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-7816946423081006064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651971636576553021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcd31b9a4d935547ad5ec5662bb3a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: -4954869380044868085}
+  maxSizeIncrease: 1
+  upwardSpeed: 2.9
