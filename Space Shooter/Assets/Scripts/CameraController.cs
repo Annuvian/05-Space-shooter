@@ -6,6 +6,8 @@ public class CameraController : MonoBehaviour
 {
     // Component References
     public Transform target;
+    public int score = 0;
+    public GameObject txt;
 
     // Variables
 
@@ -18,5 +20,7 @@ public class CameraController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         Destroy(collision.gameObject);
+        score += 1;
+        
     }
 }
