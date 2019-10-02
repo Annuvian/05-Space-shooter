@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
 public class CameraController : MonoBehaviour
 {
     // Component References
     public Transform target;
     public int score = 0;
-    public GameObject txt;
+    public Text scoreTxt;
 
     // Variables
 
@@ -21,6 +23,6 @@ public class CameraController : MonoBehaviour
     {
         Destroy(collision.gameObject);
         score += 1;
-        
+        scoreTxt.text = Convert.ToString(score);
     }
 }

@@ -594,7 +594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 866974692}
   score: 0
-  txt: {fileID: 1298665000}
+  scoreTxt: {fileID: 1298665002}
 --- !u!1001 &952372474
 PrefabInstance:
   m_ObjectHideFlags: 0
