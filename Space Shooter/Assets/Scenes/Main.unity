@@ -374,12 +374,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 755924789}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &866974692 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7071093689020619140, guid: 179a3ed2973ef7d44a5e7ae13d641661,
-    type: 3}
-  m_PrefabInstance: {fileID: 7071093688158937696}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &869703254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -474,6 +468,7 @@ GameObject:
   - component: {fileID: 925325223}
   - component: {fileID: 925325226}
   - component: {fileID: 925325227}
+  - component: {fileID: 925325228}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -594,9 +589,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa1ec65e8c81e954b85ab74ac00840d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 866974692}
   score: 0
   scoreTxt: {fileID: 1298665002}
+  rb: {fileID: 925325228}
+  verticalThrust: 3
+--- !u!50 &925325228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925325222}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
 --- !u!1001 &952372474
 PrefabInstance:
   m_ObjectHideFlags: 0

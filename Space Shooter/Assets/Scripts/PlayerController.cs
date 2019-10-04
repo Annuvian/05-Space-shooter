@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
 	void Update ()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveHorizontal * moveSpeed, thrustSpeed);
+        float moveVertical = Input.GetAxis("Vertical");
+        rb.velocity = new Vector2(moveHorizontal * moveSpeed, thrustSpeed + (moveVertical * moveSpeed));
 
         if (health <= 0)
         {

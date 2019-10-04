@@ -7,17 +7,17 @@ using System;
 public class CameraController : MonoBehaviour
 {
     // Component References
-    public Transform target;
     public int score = 0;
     public Text scoreTxt;
+    public Rigidbody2D rb;
 
     // Variables
+    public float verticalThrust;
 
 	void Update ()
     {
-        Vector3 offset = new Vector3(0.0f, target.position.y + 3.0f, -10.0f);
-        transform.position = offset;
-	}
+        rb.velocity = new Vector2(0, verticalThrust);
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
