@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     public GameObject quitButton;
     public GameObject restartButton;
     public GameObject gameOverText;
-    public GameObject pauseButton;
     // Variables
     public float thrustSpeed;
     public float moveSpeed;
@@ -30,7 +29,6 @@ public class PlayerController : MonoBehaviour
             quitButton.SetActive(true);
             restartButton.SetActive(true);
             gameOverText.SetActive(true);
-            pauseButton.SetActive(false);
         }
 
         if (isSlowed)
