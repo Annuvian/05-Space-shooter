@@ -1,0 +1,40 @@
+Name: Dylan Redmon
+Date: 10/16/19
+Project: Space Shooter
+Peer's repository: Annuvian?
+
+
+
+What is something you learned by reviewing your peer's project?
+
+ -That Unity is waaaaaay better for building games than VS Code and Python Arcade
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+ -The use of menus and sound files, as well as the overall use of Unity
+
+What suggestions would you have for your peer to improve his/her code?
+
+ -I suggest you teach me how to do some of this, yo.
+
+What could have been clearer or better commented?
+
+ -You could have left a note for the need to extract the zipped file to play using Unity. Anyone else in this class might not
+ have known how to do that, and it took me awhile to figure how to run it in my Unity application.
+
+Was there anything in the code that was confusing to you? If so, what?
+
+ -Honestly it all confused me, but that's a me problem, the code was great.
+
+Does the repository contain an appropriate LICENSE?
+
+ -Indeed it does.
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+ -Just instructions on opening the game application.
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+-Holy hell this was cool, it blew my expectations out of the water. I love the unique concept plus the use of Unity, it 
+circumvented the restrictions placed on us with this crappy excuse of a game engine (Python Arcade just hurts)
